@@ -1,0 +1,23 @@
+{
+  "name": "portafolio-example",
+  "version": "1.0.0",
+  "description": "I will create my personal portafolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jaimechacon11/portafolio-example.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jaimechacon11/portafolio-example/issues"
+  },
+  "homepage": "https://github.com/jaimechacon11/portafolio-example#readme",
+  "devDependencies": {
+    "parcel": "^2.0.0-beta.2"
+  }
+}
