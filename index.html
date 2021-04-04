@@ -4,9 +4,43 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi Portafolio</title>
+    <title>Portafolio</title>
+    <link rel="stylesheet" href="./scss/main.scss">
 </head>
 <body>
-    <p>Bonjour Monsieur</p>
+    <header id="header">
+        <div class="container">
+            <h1>Jaime Chacón "Le Lion Francais"</h1>
+            <nav>
+            <a href="#header">Home</a>
+            <a href="#about">About Me</a>
+            <a href="#projects">Projects</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="about">
+            <div class="container">
+                <div class="info">
+                    <h2>Salut! Je suis Jaime Chacón</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Incidunt ut veniam laborum vero quasi quas assumenda architecto consequuntur? Temporibus, veritatis sed, minus soluta dolor vitae asperiores nisi repudiandae placeat, vel quisquam officiis natus consequatur! Repudiandae animi explicabo laborum. Expedita incidunt, explicabo earum sunt unde dignissimos eius sapiente hic ullam fugit.</p>
+                    <div class="actions">
+                        <button>Engagez moi</button>
+                        <button>Télécharger mon CV</button>
+                    </div>
+                </div>
+                <div class="img">
+                    <figure>
+                        <img src="./imagenes/fotorelax.jpg" alt="Jaime Chacón" height="400" width="400">
+                    </figure>
+                </div>
+            </div>
+        </section>
+        <section id="projects"></section>
+
+    </main>
+
+    <script src="./ts/main.ts"></script>
 </body>
 </html>

@@ -4,7 +4,7 @@
   "description": "I will create my personal portafolio",
   "main": "index.js",
   "scripts": {
-    "dev":"parcel index.html -p 3001",
+    "dev": "parcel index.html -p 3001",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -19,6 +19,8 @@
   },
   "homepage": "https://github.com/jaimechacon11/portafolio-example#readme",
   "devDependencies": {
-    "parcel": "^2.0.0-beta.2"
+    "@parcel/transformer-sass": "^2.0.0-beta.2",
+    "parcel-bundler": "^1.12.5",
+    "typescript": "^4.2.3"
   }
 }
