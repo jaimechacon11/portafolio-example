@@ -4,6 +4,7 @@
   "description": "I will create my personal portafolio",
   "main": "index.js",
   "scripts": {
+    "dev":"parcel index.html -p 3001",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
