@@ -9,10 +9,6 @@
         align-items: center;
         height: 30rem;
 
-        /*& > *{
-            border: 2px solid black;
-        }*/
-        //#F6F6F6,#E8E8E8,#333333,#990100,#B90504,#F6F6F6,#E8E8E8,#333333
         .info{
             width: 48%;
             text-align: justify;
@@ -49,7 +45,6 @@
                 img{
                     max-width: 100%;
                     max-height: 100%;
-                    border-radius: 100rem;
                 }
             }
         }
