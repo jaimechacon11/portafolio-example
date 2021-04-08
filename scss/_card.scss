@@ -1,0 +1,27 @@
+.card{
+    height: 10rem;
+    background: url("https://lamenteesmaravillosa.com/wp-content/uploads/2016/08/gif-estrellas-fugaces.gif");
+    background-repeat: no-repeat;
+    margin: none;
+    background-size: 82rem 10rem;
+
+    .card-header{
+        color: rgb(3, 219, 216);
+        font-size: 2rem;
+        display: flex;
+        justify-content: center;
+    }
+
+    .card-body{
+
+        .blockquote{
+            text-align: center;
+            color: rgb(249,212,35);
+
+            .blockquote-footer{
+                color: rgb(249,212,35);
+            }
+        }
+    }    
+    
+}

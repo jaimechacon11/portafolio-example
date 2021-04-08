@@ -1,8 +1,8 @@
 @import "mixins";
 
 header{
-    width: 100vw;
-    background: linear-gradient(to bottom, red, white 20%, blue);
+    width: 98.7vw;
+    background-color: rgb(3,101,100);
     color: black;
     height: 4rem;
 
@@ -22,4 +22,37 @@ header{
             }
         }
     }
+}
+
+@media screen and (max-width: 1000px) {
+
+    header{
+        width: 97.3vw;
+        background-color: rgb(3,101,100);
+        color: black;
+        height: 6rem;
+        text-align: center;
+        
+        .container{
+            @include container;
+            display: block;
+            justify-content: space-between;
+            height: 100%;
+            align-items: center;
+
+            h1{
+                padding: 0.5rem;
+            }
+    
+            nav{
+                a{
+                    margin-left: 1rem;
+                    color: black;
+                    text-decoration: none;
+                    font-weight: 800;
+                }
+            }
+        }
+    }
+
 }

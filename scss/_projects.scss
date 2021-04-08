@@ -1,0 +1,83 @@
+@import "mixins";
+
+#projects{
+    background: url("https://i.blogs.es/af261d/escape_velocity/1366_521.jpg");
+    background-repeat: no-repeat;
+    background-size: 90rem 45rem;
+    
+    
+    .container{
+        @include container;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 45rem;
+        color: white;
+        margin-top: 0rem;
+
+        .card-group{
+            margin-top: -25rem;
+
+            .card{
+                border: 1rem solid rgb(38,173,228);
+                .card-body{
+                    background:url("https://i.blogs.es/b3a7c2/madhuvan-yadav-1358045-unsplash/240_240.jpg");
+                    .card-title{
+                        color: rgb(38,173,228);
+                    }
+
+                    .card-text{
+                        height: 15rem;
+                    }
+                }
+                .card-footer{
+                    background:url("https://i.blogs.es/b3a7c2/madhuvan-yadav-1358045-unsplash/240_240.jpg");
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1000px) {
+
+    #projects{
+        background: url("https://i.blogs.es/af261d/escape_velocity/1366_521.jpg");
+        background-repeat: no-repeat;
+        background-size: 90rem 45rem;
+        
+        
+        .container{
+            @include container;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 45rem;
+            color: white;
+            margin-top: 0rem;
+    
+            .card-group{
+                
+                margin-top: -25rem;
+    
+                .card{
+                    border: 1rem solid rgb(38,173,228);
+                    .card-body{
+                        background:url("https://i.blogs.es/b3a7c2/madhuvan-yadav-1358045-unsplash/240_240.jpg");
+                        .card-title{
+                            color: rgb(38,173,228);
+                        }
+    
+                        .card-text{
+                            font-size: 0.5rem;
+                            height: 10rem;
+                        }
+                    }
+                    .card-footer{
+                        background:url("https://i.blogs.es/b3a7c2/madhuvan-yadav-1358045-unsplash/240_240.jpg");
+                    }
+                }
+            }
+        }
+    }
+    
+}
