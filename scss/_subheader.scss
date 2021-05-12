@@ -1,7 +1,7 @@
 @import "mixins";
 
-#about{
-    background: url("https://i.pinimg.com/564x/c7/a0/80/c7a0807b39c25500d344ee03d0671ce2.jpg");
+#subheader{
+    background: url("https://png.pngtree.com/thumb_back/fw800/back_our/20190621/ourmid/pngtree-atmospheric-business-geometric-irregular-black-background-image_201909.jpg");
     background-repeat: no-repeat;
     background-size: 100%;
 
@@ -16,21 +16,21 @@
     .container{
         @include container;
         display: flex;
-        justify-content: space-between;
+        justify-content: center;
         align-items: center;
         height: 30rem;
-        color: white;
+        color: #e4007c;
         .info{
             width: 48%;
             text-align: justify;
             border: solid;
             border-radius: 0.5rem;
-            background: url("http://fondopantalla.com.es/file/730/1920x1080/crop/fondo-minimalista-negro.jpg");
-            background-size: 3rem 3rem;
+            background: url("https://image.freepik.com/foto-gratis/fondo-luces-neon-fantastico_75780-239.jpg");
+            background-size: 38rem 6rem;
             padding: 1rem;
             h2{
                 text-align: center;
-                color: rgb(3, 219, 216);
+                color: whitesmoke;
                 margin-bottom: 1rem;
             }
             p{
