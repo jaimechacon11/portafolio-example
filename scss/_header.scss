@@ -1,10 +1,9 @@
 @import "mixins";
 
 header{
-    width: 98.7vw;
-    background-color: rgb(3,101,100);
-    color: black;
-    height: 4rem;
+    background:url("https://static6.depositphotos.com/1126698/615/i/600/depositphotos_6150600-stock-photo-old-grunge-wood-panels.jpg");
+    color: white;
+    height: 8rem;
 
     .container{
         @include container;
@@ -15,7 +14,12 @@ header{
 
         nav{
             a{
-                margin-left: 1rem;
+                background: url("https://www.crushpixel.com/big-static16/preview4/glowing-lights-on-wooden-background-2235761.jpg");
+                margin-left: 0.5rem;
+                border: solid;
+                border-radius: 0.3rem;
+                font-size: 1rem;
+                padding: 0.5rem;
                 color: black;
                 text-decoration: none;
                 font-weight: 800;

@@ -7,10 +7,9 @@
 }
 
 header {
-  width: 98.7vw;
-  background-color: #036564;
-  color: black;
-  height: 4rem;
+  background: url("https://static6.depositphotos.com/1126698/615/i/600/depositphotos_6150600-stock-photo-old-grunge-wood-panels.jpg");
+  color: white;
+  height: 8rem;
 }
 header .container {
   width: 90%;
@@ -22,7 +21,12 @@ header .container {
   align-items: center;
 }
 header .container nav a {
-  margin-left: 1rem;
+  background: url("https://www.crushpixel.com/big-static16/preview4/glowing-lights-on-wooden-background-2235761.jpg");
+  margin-left: 0.5rem;
+  border: solid;
+  border-radius: 0.3rem;
+  font-size: 1rem;
+  padding: 0.5rem;
   color: black;
   text-decoration: none;
   font-weight: 800;
@@ -60,6 +64,13 @@ header .container nav a {
   background-repeat: no-repeat;
   background-size: 100%;
 }
+#about .card-header1 {
+  color: white;
+  font-size: 2rem;
+  display: flex;
+  justify-content: center;
+  padding-top: 2rem;
+}
 #about .container {
   width: 90%;
   max-width: 100vw;
@@ -73,7 +84,11 @@ header .container nav a {
 #about .container .info {
   width: 48%;
   text-align: justify;
-  border: none;
+  border: solid;
+  border-radius: 0.5rem;
+  background: url("http://fondopantalla.com.es/file/730/1920x1080/crop/fondo-minimalista-negro.jpg");
+  background-size: 3rem 3rem;
+  padding: 1rem;
 }
 #about .container .info h2 {
   color: #03dbd8;
@@ -155,10 +170,125 @@ header .container nav a {
     height: 12rem;
   }
 }
+#aboutC {
+  background: url("https://www.publicdomainpictures.net/pictures/30000/velka/old-background-1350553716qhs.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+#aboutC .card-header1 {
+  color: white;
+  font-size: 2rem;
+  display: flex;
+  justify-content: center;
+  padding-top: 2rem;
+}
+#aboutC .container {
+  width: 90%;
+  max-width: 100vw;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 30rem;
+  color: white;
+}
+#aboutC .container .info {
+  width: 90%;
+  text-align: justify;
+  border: solid;
+  border-radius: 0.5rem;
+  background: url("http://fondopantalla.com.es/file/730/1920x1080/crop/fondo-minimalista-negro.jpg");
+  background-size: 3rem 3rem;
+  padding: 1rem;
+  margin-right: 3rem;
+}
+#aboutC .container .info h2 {
+  color: #03dbd8;
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: center;
+}
+#aboutC .container .info p {
+  margin-bottom: 1rem;
+}
+#aboutC .container .img {
+  width: 60%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: 5rem;
+}
+#aboutC .container .img figure {
+  width: 70%;
+}
+#aboutC .container .img figure img {
+  border-radius: 20rem;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+@media screen and (max-width: 1000px) {
+  #about {
+    background: url("https://i.pinimg.com/564x/c7/a0/80/c7a0807b39c25500d344ee03d0671ce2.jpg");
+    background-repeat: no-repeat;
+    background-size: 40rem 30rem;
+  }
+  #about .container {
+    width: 90%;
+    max-width: 100vw;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 30rem;
+    color: white;
+  }
+  #about .container .info {
+    width: 48%;
+    text-align: justify;
+    border: none;
+  }
+  #about .container .info h2 {
+    color: #03dbd8;
+    margin-bottom: 1rem;
+  }
+  #about .container .info p {
+    margin-bottom: 1rem;
+  }
+  #about .container .info .actions {
+    display: flex;
+    justify-content: flex-end;
+  }
+  #about .container .info .actions button {
+    margin-left: 1rem;
+  }
+  #about .container .img {
+    width: 48%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  #about .container .img figure {
+    width: 70%;
+  }
+  #about .container .img figure img {
+    border-radius: 20rem;
+    max-width: 100%;
+    max-height: 100%;
+    height: 12rem;
+  }
+}
 #projects {
   background: url("https://i.blogs.es/af261d/escape_velocity/1366_521.jpg");
   background-repeat: no-repeat;
-  background-size: 90rem 45rem;
+  background-size: 90rem 60rem;
+}
+#projects .card-header1 {
+  color: white;
+  font-size: 2rem;
+  display: flex;
+  justify-content: center;
+  padding-top: 3rem;
 }
 #projects .container {
   width: 90%;
@@ -172,7 +302,7 @@ header .container nav a {
   margin-top: 0rem;
 }
 #projects .container .card-group {
-  margin-top: -25rem;
+  margin-top: -30rem;
 }
 #projects .container .card-group .card {
   border: 1rem solid #26ade4;
@@ -230,7 +360,6 @@ header .container nav a {
 .card {
   height: 10rem;
   background: url("https://lamenteesmaravillosa.com/wp-content/uploads/2016/08/gif-estrellas-fugaces.gif");
-  background-repeat: no-repeat;
   margin: none;
   background-size: 82rem 10rem;
 }
@@ -246,6 +375,240 @@ header .container nav a {
 }
 .card .card-body .blockquote .blockquote-footer {
   color: #f9d423;
+}
+
+#redes {
+  background: url("https://disenart.mx/wp-content/uploads/2020/09/banner-rojo-.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+#redes .card-header1 {
+  color: white;
+  font-size: 2rem;
+  display: flex;
+  justify-content: center;
+  padding-top: 2rem;
+}
+#redes .container {
+  width: 90%;
+  max-width: 100vw;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 10rem;
+  color: white;
+}
+#redes .container p {
+  color: black;
+  font-size: 7rem;
+  border: 1rem;
+}
+#redes .container p a {
+  color: black;
+}
+#redes .container .info {
+  width: 90%;
+  text-align: justify;
+  border: solid;
+  border-radius: 0.5rem;
+  background: url("http://fondopantalla.com.es/file/730/1920x1080/crop/fondo-minimalista-negro.jpg");
+  background-size: 3rem 3rem;
+  padding: 1rem;
+  margin-right: 3rem;
+}
+#redes .container .info h2 {
+  color: #03dbd8;
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: center;
+}
+#redes .container .info p {
+  margin-bottom: 1rem;
+}
+#redes .container .img {
+  width: 60%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: 5rem;
+}
+#redes .container .img figure {
+  width: 70%;
+}
+#redes .container .img figure img {
+  border-radius: 20rem;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+@media screen and (max-width: 1000px) {
+  #about {
+    background: url("https://i.pinimg.com/564x/c7/a0/80/c7a0807b39c25500d344ee03d0671ce2.jpg");
+    background-repeat: no-repeat;
+    background-size: 40rem 30rem;
+  }
+  #about .container {
+    width: 90%;
+    max-width: 100vw;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 30rem;
+    color: white;
+  }
+  #about .container .info {
+    width: 48%;
+    text-align: justify;
+    border: none;
+  }
+  #about .container .info h2 {
+    color: #03dbd8;
+    margin-bottom: 1rem;
+  }
+  #about .container .info p {
+    margin-bottom: 1rem;
+  }
+  #about .container .info .actions {
+    display: flex;
+    justify-content: flex-end;
+  }
+  #about .container .info .actions button {
+    margin-left: 1rem;
+  }
+  #about .container .img {
+    width: 48%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  #about .container .img figure {
+    width: 70%;
+  }
+  #about .container .img figure img {
+    border-radius: 20rem;
+    max-width: 100%;
+    max-height: 100%;
+    height: 12rem;
+  }
+}
+#correo {
+  background: url("https://static.vecteezy.com/system/resources/previews/002/082/392/non_2x/black-abstract-background-with-blue-red-pink-green-and-yellow-neon-lines-simple-modern-illustration-vector.jpg");
+  background-repeat: no-repeat;
+  background-size: 100rem 20rem;
+}
+#correo .card-header1 {
+  color: white;
+  font-size: 2rem;
+  display: flex;
+  justify-content: center;
+  padding-top: 2rem;
+}
+#correo .container {
+  width: 90%;
+  max-width: 100vw;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10rem;
+  color: white;
+}
+#correo .container h1 {
+  font-style: bold;
+  font-size: 3rem;
+}
+#correo .container p {
+  color: black;
+  font-size: 7rem;
+  border: 1rem;
+}
+#correo .container .info {
+  width: 90%;
+  text-align: justify;
+  border: solid;
+  border-radius: 0.5rem;
+  background: url("http://fondopantalla.com.es/file/730/1920x1080/crop/fondo-minimalista-negro.jpg");
+  background-size: 3rem 3rem;
+  padding: 1rem;
+  margin-right: 3rem;
+}
+#correo .container .info h2 {
+  color: #03dbd8;
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: center;
+}
+#correo .container .info p {
+  margin-bottom: 1rem;
+}
+#correo .container .img {
+  width: 60%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: 5rem;
+}
+#correo .container .img figure {
+  width: 70%;
+}
+#correo .container .img figure img {
+  border-radius: 20rem;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+@media screen and (max-width: 1000px) {
+  #about {
+    background: url("https://i.pinimg.com/564x/c7/a0/80/c7a0807b39c25500d344ee03d0671ce2.jpg");
+    background-repeat: no-repeat;
+    background-size: 40rem 30rem;
+  }
+  #about .container {
+    width: 90%;
+    max-width: 100vw;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 30rem;
+    color: white;
+  }
+  #about .container .info {
+    width: 48%;
+    text-align: justify;
+    border: none;
+  }
+  #about .container .info h2 {
+    color: #03dbd8;
+    margin-bottom: 1rem;
+  }
+  #about .container .info p {
+    margin-bottom: 1rem;
+  }
+  #about .container .info .actions {
+    display: flex;
+    justify-content: flex-end;
+  }
+  #about .container .info .actions button {
+    margin-left: 1rem;
+  }
+  #about .container .img {
+    width: 48%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  #about .container .img figure {
+    width: 70%;
+  }
+  #about .container .img figure img {
+    border-radius: 20rem;
+    max-width: 100%;
+    max-height: 100%;
+    height: 12rem;
+  }
 }
 
 /*# sourceMappingURL=/main.77bb5cfd.css.map */

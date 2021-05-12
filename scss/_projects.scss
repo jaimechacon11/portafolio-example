@@ -3,9 +3,16 @@
 #projects{
     background: url("https://i.blogs.es/af261d/escape_velocity/1366_521.jpg");
     background-repeat: no-repeat;
-    background-size: 90rem 45rem;
+    background-size: 90rem 60rem;
     
-    
+    .card-header1{
+        color: white;
+        font-size: 2rem;
+        display: flex;
+        justify-content: center;
+        padding-top: 3rem
+    }
+
     .container{
         @include container;
         display: flex;
@@ -16,7 +23,7 @@
         margin-top: 0rem;
 
         .card-group{
-            margin-top: -25rem;
+            margin-top: -30rem;
 
             .card{
                 border: 1rem solid rgb(38,173,228);
